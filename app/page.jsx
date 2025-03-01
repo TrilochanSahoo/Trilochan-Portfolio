@@ -3,7 +3,7 @@ import Experience from "@/components/Experience";
 import HomePage from "@/components/Home";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import Contact from "@/components/Contact";
+import Dock from "@/components/Dock";
 export default function page() {
 
   return (
@@ -14,7 +14,7 @@ export default function page() {
         <Skills />
         <Experience />
         <Projects />
-        <Contact />
+        <Dock/>
       </div>
     </>
   );

@@ -225,3 +225,44 @@ export const contactMe = [
   },
 
 ]
+
+export const dockItems = [
+  {
+    title: "alfaarghya",
+    icon: "/alfaarghyaAvtar.svg",
+    href: "#",
+    newTab: false,
+  },
+  {
+    title: "Mail",
+    icon: "/dockSvg/email-circle-fill-svgrepo-com.svg",
+    href: "mailto:trilochansahoo026@gmail.com",
+    newTab: true,
+  },
+  {
+    title: "GitHub",
+    icon: "/dockSvg/github-dock.svg",
+    href: "https://github.com/TrilochanSahoo",
+    newTab: true,
+  },
+
+  {
+    title: "LinkedIN",
+    icon: "/dockSvg/linkedin-dock.svg",
+    href: "https://www.linkedin.com/in/trilochan-sahoo-6365871b6/",
+    newTab: true,
+  },
+  {
+    title: "X",
+    icon: "/dockSvg/twitter-dock.svg",
+    href: "https://x.com/Trilochan026",
+    newTab: true,
+  },
+  {
+    title: "CV",
+    icon: "/dockSvg/cv-dock.svg",
+    href: "https://drive.google.com/",
+    newTab: true,
+  },
+];
+
