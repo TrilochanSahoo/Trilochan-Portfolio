@@ -198,34 +198,7 @@ export const experience = [
     content: <>&#9;I worked as a developer on the App Builder Module team, where I built dynamic form builder features using ReactJS and integrated Microservices APIs to improve functionality and performance. My role involved optimizing workflows, reducing response times, and ensuring a smooth user experience through Agile collaboration.<br></br>&#9;I also focused on security, integrating MongoCrypt with MongoDB for end-to-end encryption and managing encryption keys for sensitive data. Additionally, I developed a QR code generator with flexible customization and implemented a secure file scanning system to enhance threat detection and data protection.</>
   },
 ];
-export const contactMe = [
-  {
-    name: "Email",
-    link: "mailto:khatriayush2003@gmail.com",
-    icon: <SiMinutemailer size={50} />,
-  },
-  {
-    name: "Insta",
-    link: "https://instagram.com/ayush.khatrii",
-    icon: <IoLogoInstagram size={50} />,
-  },
-  {
-    name: "linkedin",
-    link: "https://www.linkedin.com/in/ayushkhatrii",
-    icon: <IoLogoLinkedin size={50} />,
-  },
-  {
-    name: "x",
-    link: "https://x.com/khatri_ayush15",
-    icon: <RiTwitterXLine size={50} />,
-  },
-  {
-    name: "Github",
-    link: "https://github.com/ayush-khatrii",
-    icon: <IoLogoGithub size={50} />,
-  },
 
-]
 
 export const dockItems = [
   {

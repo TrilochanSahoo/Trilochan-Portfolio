@@ -4,8 +4,15 @@ import { BackgroundBeamsWithCollision } from "./ui/beams-collitions";
 const About = () => {
   return (
     <>
+      <div className='group relative py-10 max-w-24 mx-auto'>
+            <h1 className='text-center text-gray-300 font-bold text-4xl '>
+              About
+            </h1>
+            <span className="absolute inset-x-0 h-[2px] bg-gradient-to-r from-sky-500/0 via-sky-500/70 to-sky-500/0 opacity-100 transition group:opacity-100"></span>
+        </div>
       <BackgroundBeamsWithCollision>
         <section id="about" className="py-20 max-w-4xl px-5 mx-auto dark:text-white flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left">
+          
           <div className="flex flex-col justify-start items-start md:items-start px-2 w-full">
             <Tabs variant="underlined" className="w-full">
               <Tab key="about_me" title="About" className="text-xl">

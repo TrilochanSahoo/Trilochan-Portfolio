@@ -8,7 +8,12 @@ import { motion } from "framer-motion";
 export default function Experience() {
   return (
     <section id="experience" className="overflow-hidden py-20">
-      <h1 className='text-center text-gray-300 font-bold text-2xl py-10 '>Work Experience</h1>
+      <div className='group relative py-10 max-w-fit mx-auto'>
+          <h1 className='text-center text-gray-300 font-bold text-4xl '>
+          Work Experience
+          </h1>
+          <span className="absolute inset-x-0 h-[2px] bg-gradient-to-r from-sky-500/0 via-sky-500/70 to-sky-500/0 opacity-100 transition group:opacity-100"></span>
+      </div>
       <div className="flex max-w-4xl mx-auto flex-col">
         {/* Large screen */}
         <div className="hidden sm:flex bg-shadow">

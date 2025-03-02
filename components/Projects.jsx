@@ -9,7 +9,12 @@ export default function Projects() {
   return (
 
     <div id="projects" className="py-20">
-      <h1 className='text-center text-gray-300 font-bold text-2xl pb-10'>Projects</h1>
+      <div className='group relative py-10 max-w-fit mx-auto'>
+        <h1 className='text-center text-gray-300 font-bold text-4xl '>
+          Projects
+        </h1>
+        <span className="absolute inset-x-0 h-[2px] bg-gradient-to-r from-sky-500/0 via-sky-500/70 to-sky-500/0 opacity-100 transition group:opacity-100"></span>
+      </div>
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
 
       <div className="grid grid-col-1 max-w-5xl mx-auto lg:grid-cols-3 px-10 gap-5 ">

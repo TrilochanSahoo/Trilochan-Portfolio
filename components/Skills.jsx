@@ -5,7 +5,12 @@ const Skills = () => {
   return (
     <div id='skills' className='relative z-10'>
       <div className="py-20 rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-        <h1 className='text-center text-gray-300 font-bold text-2xl py-10 '>Skills</h1>
+        <div className='group relative py-10'>
+          <h1 className='text-center text-gray-300 font-bold text-4xl '>
+            Skills
+          </h1>
+          <span className="absolute inset-x-0 h-[2px] bg-gradient-to-r from-sky-500/0 via-sky-500/70 to-sky-500/0 opacity-100 transition group:opacity-100"></span>
+        </div>
         <div >
           <InfiniteMovingCards
             items={frontendTechStack}

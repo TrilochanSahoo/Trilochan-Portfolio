@@ -35,12 +35,6 @@ export default function HomePage() {
               <a href="#about">
                 <Button radius="sm" variant="solid" size="lg" className="dark:bg-zinc-300 dark:text-black bg-zinc-900 text-white text-xl font-medium">Explore</Button>
               </a>
-              {/* <a target="_blank" href="https://ayushkhatri.hashnode.dev">
-                <Button radius="sm" size="lg"
-                  variant="bordered"
-                  className="font-medium text-xl"
-                >Blog</Button>
-              </a> */}
             </div>
           </div>
 

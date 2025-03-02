@@ -7,8 +7,8 @@ import { Toaster } from "react-hot-toast";
 const darker_grotesque = Darker_Grotesque({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ayush Khatri - Web Developer Portfolio | Nextjs",
-  description: "Explore the portfolio of Ayush Khatri, a skilled web developer showcasing various projects and skills.",
+  title: "Trilochan Sahoo | Web Developer Portfolio",
+  description: "Explore the portfolio of Trilochan Sahoo, a skilled web developer showcasing various projects and skills.",
 };
 
 export default function RootLayout({ children }) {
