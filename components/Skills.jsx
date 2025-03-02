@@ -3,10 +3,10 @@ import { frontendTechStack, backendTechStack, devops } from '@/constants/index';
 
 const Skills = () => {
   return (
-    <div>
+    <div id='skills' className='relative z-10'>
       <div className="py-20 rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
         <h1 className='text-center text-gray-300 font-bold text-2xl py-10 '>Skills</h1>
-        <div>
+        <div >
           <InfiniteMovingCards
             items={frontendTechStack}
             direction="right"

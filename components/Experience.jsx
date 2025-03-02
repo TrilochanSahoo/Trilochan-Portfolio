@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 
 export default function Experience() {
   return (
-    <section className="overflow-hidden py-20">
+    <section id="experience" className="overflow-hidden py-20">
       <h1 className='text-center text-gray-300 font-bold text-2xl py-10 '>Work Experience</h1>
       <div className="flex max-w-4xl mx-auto flex-col">
         {/* Large screen */}
-        <div className="hidden sm:flex">
+        <div className="hidden sm:flex bg-shadow">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -20,7 +20,7 @@ export default function Experience() {
             <Tabs aria-label="Dynamic tabs" items={experience} color="default" variant="light" isVertical>
               {(item) => (
                 <Tab key={item.id} title={item.label} className="bg-transparent">
-                  <Card className="bg-treansparent cursor-pointer ">
+                  <Card className="bg-black ">
                     <CardBody>
                       <div>
                         <h1 className=" text-left sm:text-2xl mb-2 flex gap-2 sm:text-center items-center font-extrabold ">{item.position}

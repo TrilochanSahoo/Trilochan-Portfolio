@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
 
-    <div className="py-20">
+    <div id="projects" className="py-20">
       <h1 className='text-center text-gray-300 font-bold text-2xl pb-10'>Projects</h1>
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
 

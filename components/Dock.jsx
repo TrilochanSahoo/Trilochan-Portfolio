@@ -16,7 +16,7 @@ const Dock = () => {
       }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="flex md:justify-center justify-start "
+      className="relative flex md:justify-center justify-start z-50"
     >
       <DockElement
         desktopClassName="fixed bottom-4 "

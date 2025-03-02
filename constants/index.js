@@ -1,5 +1,6 @@
 import { IoLogoCss3, IoLogoGithub, IoLogoHtml5, IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import { FaBootstrap, FaNodeJs, FaDocker, FaAws } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiMinutemailer, SiMongodb, SiNextdotjs, SiSocketdotio, SiTypescript } from "react-icons/si";
 import { SiShadcnui, SiExpress, SiFramer  } from "react-icons/si";
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi";
@@ -228,8 +229,8 @@ export const contactMe = [
 
 export const dockItems = [
   {
-    title: "alfaarghya",
-    icon: "/alfaarghyaAvtar.svg",
+    title: "TS",
+    icon: "/dockSvg/dock-menu.svg",
     href: "#",
     newTab: false,
   },
@@ -247,17 +248,17 @@ export const dockItems = [
   },
 
   {
-    title: "LinkedIN",
+    title: "Linked IN",
     icon: "/dockSvg/linkedin-dock.svg",
     href: "https://www.linkedin.com/in/trilochan-sahoo-6365871b6/",
     newTab: true,
   },
-  {
-    title: "X",
-    icon: "/dockSvg/twitter-dock.svg",
-    href: "https://x.com/Trilochan026",
-    newTab: true,
-  },
+  // {
+  //   title: "X",
+  //   icon: <FaXTwitter />,
+  //   href: "https://x.com/Trilochan026",
+  //   newTab: true,
+  // },
   {
     title: "CV",
     icon: "/dockSvg/cv-dock.svg",

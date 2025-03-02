@@ -23,8 +23,12 @@ const About = () => {
               <a 
                 target="_blank" 
                 href="#">
-                 <Button radius="sm" size="lg" className="bg-zinc-900 text-xl font-medium">
+                 <Button radius="sm" size="lg" className="bg-zinc-700 hover:bg-[#030013] relative text-xl font-medium group shadow-2xl shadow-zinc-900 text-white">
+                  <span className="absolute inset-0 overflow-hidden ">
+                    <span className="absolute inset-0 bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-50" />
+                  </span>
                    Resume
+                   <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-purple-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
                  </Button>
               </a>
             </div>

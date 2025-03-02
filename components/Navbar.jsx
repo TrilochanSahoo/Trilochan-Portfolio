@@ -63,7 +63,7 @@ export default function Header() {
         ))}
       </NavbarContent>
 
-      <NavbarMenu className="dark:bg-black dark:backdrop-blur-lg">
+      <NavbarMenu className="dark:bg-[#141E2B] dark:backdrop-blur-lg">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
