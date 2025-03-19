@@ -226,16 +226,10 @@ export const dockItems = [
     href: "https://www.linkedin.com/in/trilochan-sahoo-6365871b6/",
     newTab: true,
   },
-  // {
-  //   title: "X",
-  //   icon: <FaXTwitter />,
-  //   href: "https://x.com/Trilochan026",
-  //   newTab: true,
-  // },
   {
     title: "CV",
     icon: "/dockSvg/cv-dock.svg",
-    href: "https://drive.google.com/",
+    href: "https://drive.google.com/file/d/1f6mKM_4vTIT_fxVL2LBuNpq1BzdAlkYf/view?usp=drive_link",
     newTab: true,
   },
 ];
