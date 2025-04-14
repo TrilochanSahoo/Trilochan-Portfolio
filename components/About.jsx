@@ -29,7 +29,7 @@ const About = () => {
             <div className="flex lg:justify-center justify-start items-center text-xl gap-5 mb-5">
               <a 
                 target="_blank" 
-                href="#">
+                href="https://drive.google.com/file/d/1f6mKM_4vTIT_fxVL2LBuNpq1BzdAlkYf/view?usp=drive_link">
                  <Button radius="sm" size="lg" className="bg-zinc-700 hover:bg-[#030013] relative text-xl font-medium group shadow-2xl shadow-zinc-900 text-white">
                   <span className="absolute inset-0 overflow-hidden ">
                     <span className="absolute inset-0 bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-50" />

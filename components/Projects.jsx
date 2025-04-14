@@ -19,8 +19,7 @@ export default function Projects() {
 
       <div className="grid grid-col-1 max-w-5xl mx-auto lg:grid-cols-3 px-10 gap-5 ">
         {
-          projectsData.map((item, index) => (
-            <>
+          projectsData.map((item,index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and move from 50px below
@@ -52,7 +51,6 @@ export default function Projects() {
                   </div>
                 </CardSpotlight>
               </motion.div>
-            </>
           ))
         }
       </div >
